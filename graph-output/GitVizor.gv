@@ -1,0 +1,38 @@
+digraph GitVizor {
+	"6930e9b8396db77f6bac7efbd513377f96c40be6" [label="6930e9b8396db77f6bac7efbd513377f96c40be6:
+switch theme bug fix
+(main)"]
+	"841cdccc2aadb43b2277b3128df895efd98ff13e" [label="841cdccc2aadb43b2277b3128df895efd98ff13e:
+added key bindings for numpad & some improvements of dropdown
+(main)"]
+	b5ccff6c1ec799bda4d955297eb095acd0f22ccc [label="b5ccff6c1ec799bda4d955297eb095acd0f22ccc:
+added dropdown
+(main)"]
+	"4fb78fba9ed8cc2bc9c787cdd344c6b44f307058" [label="4fb78fba9ed8cc2bc9c787cdd344c6b44f307058:
+bug fix
+(main)"]
+	"7e448ddbe6a8fcb2933fd91bcda14a3304e966c8" [label="7e448ddbe6a8fcb2933fd91bcda14a3304e966c8:
+added dynamic sizing for main display & limited input size
+(main)"]
+	"75117cbe11639cd4053d811c34415c4908983e83" [label="75117cbe11639cd4053d811c34415c4908983e83:
+first commit
+(main)"]
+	"6930e9b8396db77f6bac7efbd513377f96c40be6" -> "841cdccc2aadb43b2277b3128df895efd98ff13e" [label="scripts: d935a792e68839f4b36cc20a7e10ad91a6125d40
+"]
+	"841cdccc2aadb43b2277b3128df895efd98ff13e" -> b5ccff6c1ec799bda4d955297eb095acd0f22ccc [label="dropdown: 9ad08183f842283adf8a51554a703bb1fc3e8cde
+index.html: 1f0fe23508bb0b35dfe5b3e07c91a4c0d8faedf6
+scripts: 838af9ef2894b64e3f2d6231ada921d3d324601a
+"]
+	b5ccff6c1ec799bda4d955297eb095acd0f22ccc -> "4fb78fba9ed8cc2bc9c787cdd344c6b44f307058" [label="dropdown: 35f64a906dbaa76de6b2b5d3ca9dde643eaea042
+index.html: 2ab2c260814ecc1f607d88d7ee13a8be56ea395d
+scripts: f27b804c1dc051aaaa821945194797f335c6f483
+style.css: 78c7fefadb50bbc956f13f3454f60c4131455cbd
+"]
+	"4fb78fba9ed8cc2bc9c787cdd344c6b44f307058" -> "7e448ddbe6a8fcb2933fd91bcda14a3304e966c8" [label="index.html: c5110dff2ff0751ebbc917f6f1e4c46dda2595b7
+scripts: 4f23f2eb9477c0a400682434a8c5b136a50e51bd
+style.css: 26531bc96261577e5565aaa792b1257d776d506c
+"]
+	"7e448ddbe6a8fcb2933fd91bcda14a3304e966c8" -> "75117cbe11639cd4053d811c34415c4908983e83" [label="scripts: ad4d5b0d7cd29f92cd1fa9be442408821f654fb9
+style.css: 2630ec6484967c2bcf43cd5efc2a5416cfacc3fc
+"]
+}
